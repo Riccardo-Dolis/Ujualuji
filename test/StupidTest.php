@@ -1,10 +1,10 @@
 <?php
-  class StupidTest extends \PHPUnit_Framework_TestCase
-  {
-    public function TestTrueisTrue()
+namespace phpUnitTutorial\Test;
+class StupidTest extends \PHPUnit_Framework_TestCase
+{
+    public function testTrueIsTrue()
     {
-     $foo = true;
-     $this->assertTrue($foo);
+        $foo = true;
+        $this->assertTrue($foo);
     }
-  }
-?>
+}
