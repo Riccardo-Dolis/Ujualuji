@@ -14,7 +14,7 @@ class IndexTest extends DOMTestCase
         $content  = 'Test title text';
         $this->assertSelectEquals($selector, $content, true, $this->html);
     }
-    public function testClassContent()
+   /*public function testClassContent()
     {
         $selector = 'div.foo';
         $content  = 'Test class text';
@@ -33,3 +33,4 @@ class IndexTest extends DOMTestCase
         $this->assertSelectRegExp($selector, $regexp, true, $this->html);
     }
 }
+*/
