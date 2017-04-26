@@ -33,4 +33,4 @@ class IndexTest extends DOMTestCase
         $this->assertSelectRegExp($selector, $regexp, true, $this->html);
     }*/
 }
-
+?>
