@@ -31,6 +31,6 @@ class IndexTest extends DOMTestCase
         $selector = 'div.bar';
         $regexp   = '/Pierro/';
         $this->assertSelectRegExp($selector, $regexp, true, $this->html);
-    }
+    }*/
 }
-*/
+
